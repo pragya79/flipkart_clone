@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    bottom: 0px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(224, 220, 220);
+}
+.line{
+    display: flex;
+    color: #585757;
+    width: 100%;
+}
+.line span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.line p{
+    font-size: 12px;
+}
+h4{
+    color: rgb(114, 113, 113);
+}

@@ -1,0 +1,85 @@
+.banners{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    flex-wrap: wrap;
+}
+.poster{
+    width: 430px;
+    height: 220px;
+    margin: 7px 5px;
+}
+.poster img{
+    width: 430px;
+    height: 220px;
+}
+.offers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(241, 239, 239);
+   
+}
+.gift{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    height:500px;
+}
+.gift .details{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    width:180px;
+    height: 220px;
+    border: 1px solid #bebdbd;
+    border-radius: 5px;
+    margin: 4px 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.details img{
+    height: 140px;
+    width: 130px;
+}
+.details p{
+    font-size: 18px;
+    color: #212121;
+    line-height: 0;
+}
+.details h4{
+    color: rgb(57, 126, 57);
+    line-height: 0;
+}
+.topselling{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    position: absolute;
+    right: 0;
+    margin: 7px;
+    height: 400px;
+}
+.hording img{
+    width: 100%;
+    height: 554px;
+}
+.lefty{
+    margin: 10px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 250px;
+    position: relative;
+    
+}
+.middle{
+    margin: 10px;
+    position: relative;
+    width: 420px;
+    height: 200px;
+    background-color: white;
+}

@@ -1,0 +1,89 @@
+.outer-box{
+    margin: 10px 20px;
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+.title{
+    color: silver;
+    margin-left: 10px;
+}
+.fashion-wrapper{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.fashion-container{
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    transform: translateX(0px);
+    transition: all 1ms step-end;
+    scroll-behavior: smooth;
+}
+.fashion-details{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #bebebe;
+    border-radius: 4px;
+    width: 200px;
+    height: 240px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 2px;
+    position: relative;
+    line-height: 0%;
+}
+.fashion-details img{
+    width: 146px;
+    height: 165px;
+}
+.fashion-details p{
+    font-size: medium;
+    align-items: center;
+    display: inline;
+    line-height: 0%;
+}
+.fashion-details h4{
+    line-height: 0%;
+    font-weight: 500;
+}
+
+.arrow{
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    color: gray;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.leftf{
+    left: 0;
+    position: absolute;
+    
+}
+.rightf{
+    right: 20px;
+    position: absolute;
+}
+
+h2{
+    color: #212121;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+
